@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VQtZpHvAquE6MOMjurCLp8uiB2erBS+E3l6hl+y9eY83gIHJDJvMxraH8/HTSpEjK4cmB2WxQSzgSle3IiDkgQ==",
+  "dgSpecHash": "SVK5AR74g5J0/09ftyMTIkHg8GvMRlSsw+jJQFbaMow4gqqJep7AC0afR66+A0xeJ0e+J/RPkh+WjWORh+NPnw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj",
+  "projectFilePath": "C:\\Users\\HP\\source\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj": {}
+    "C:\\Users\\HP\\source\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj": {
+    "C:\\Users\\HP\\source\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
         "projectName": "CommandAPI",
-        "projectPath": "C:\\Users\\HP\\source\\CommandAPISolution\\src\\commandapi\\CommandAPI.csproj",
+        "projectPath": "C:\\Users\\HP\\source\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\CommandAPISolution\\src\\commandapi\\obj\\",
+        "outputPath": "C:\\Users\\HP\\source\\CommandAPISolution\\src\\CommandAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
