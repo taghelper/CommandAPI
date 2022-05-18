@@ -107,3 +107,10 @@ C:\Users\HP\source\CommandAPISolution\test\CommandAPI.Tests\obj\Debug\net5.0\Com
 C:\Users\HP\source\CommandAPISolution\test\CommandAPI.Tests\obj\Debug\net5.0\ref\CommandAPI.Tests.dll
 C:\Users\HP\source\CommandAPISolution\test\CommandAPI.Tests\obj\Debug\net5.0\CommandAPI.Tests.pdb
 C:\Users\HP\source\CommandAPISolution\test\CommandAPI.Tests\obj\Debug\net5.0\CommandAPI.Tests.genruntimeconfig.cache
+C:\Users\HP\source\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HP\source\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+C:\Users\HP\source\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HP\source\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HP\source\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\HP\source\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net5.0\Npgsql.dll
+C:\Users\HP\source\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
