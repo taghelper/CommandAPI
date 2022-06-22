@@ -11,6 +11,8 @@ using CommandAPI.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Npgsql;
+using AutoMapper;
+using Newtonsoft.Json.Serialization;
 
 namespace CommandAPI
 {
@@ -21,6 +23,11 @@ namespace CommandAPI
         {
             Configuration = configuration;
         }
+///
+
+///
+
+
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
@@ -37,8 +44,28 @@ namespace CommandAPI
             services.AddDbContext<CommandContext>(opt => opt.UseNpgsql(builder.ConnectionString));
 
             services.AddControllers();
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
             //services.AddScoped<ICommandAPIRepo, MockCommandAPIRepo>();
             services.AddScoped<ICommandAPIRepo, SqlCommandAPIRepo>();
+
+            //We use the settings bellow for us to be able to work with PATCH reguests
+            //the using statment "//the using statment "Newtonsoft.Json.Serialization; needed!
+
+            services.AddControllers().AddNewtonsoftJson(s=>
+            {
+                s.SerializerSettings.ContractResolver=new CamelCasePropertyNamesContractResolver();
+            });
+
+            //CORS
+            services.AddCors(options=>
+            {
+                options.AddPolicy("WeatherForecastCorsPolicy",builder=>
+                {
+                    builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,6 +77,8 @@ namespace CommandAPI
             }
 
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseEndpoints(endpoints =>
             {
